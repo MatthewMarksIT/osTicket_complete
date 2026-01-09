@@ -10,7 +10,7 @@ This tutorial outlines the following for the open-source help desk ticketing sys
 -Ticket Lifecycle Examples
 
 
-<br />
+---
 
 
 <h2>Environments and Technologies Used</h2>
