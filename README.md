@@ -5,9 +5,9 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the following for the open-source help desk ticketing system osTicket: 
 
--Installation
--Configuration
--Ticket Lifecycle Examples
+- Installation
+- Configuration
+- Ticket Lifecycle Examples
 
 
 ---
