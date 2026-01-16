@@ -239,7 +239,146 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
+---
+## Configuration (Admin & Workflow Setup)
 
+This section demonstrates how osTicket can be configured to simulate a real help desk environment.
+
+---
+
+### 1. Configure Roles (Permissions)
+Used to group permissions for agents.
+
+Path:
+Admin Panel → Agents → Roles
+
+yaml
+Copy code
+
+Example Role:
+- Super Admin
+
+---
+
+### 2. Configure Departments
+Used to control ticket visibility and separation of duties.
+
+Path:
+Admin Panel → Agents → Departments
+
+yaml
+Copy code
+
+Example Department:
+- SysAdmins
+  
+<img width="1205" height="452" alt="add new department" src="https://github.com/user-attachments/assets/97e8c1b0-c5fd-4109-8de1-3df4d70728a3" />
+
+---
+
+### 3. Configure Teams
+Teams allow agents from different departments to collaborate.
+
+Path:
+Admin Panel → Agents → Teams
+
+yaml
+Copy code
+
+Example Team:
+- Online Banking
+  
+<img width="1197" height="681" alt="add new team" src="https://github.com/user-attachments/assets/24792068-e490-4453-b8f9-b638d6b88509" />
+
+---
+
+### 4. User Registration Settings
+Control whether anyone can submit tickets.
+
+Path:
+Admin Panel → Settings → User Settings
+
+yaml
+Copy code
+
+Configured as:
+- Unchecked: Unregistered users can create tickets  
+- Enabled: Registration required to create tickets  
+
+This forces users to log in before submitting tickets.
+
+---
+
+### 5. Configure Agents (Workers)
+Agents represent internal IT staff.
+
+Path:
+Admin Panel → Agents → Add New
+
+<img width="1198" height="692" alt="add new agent" src="https://github.com/user-attachments/assets/97b87a52-0f02-4aa5-bf60-7bd73abdb0a2" />
+
+---
+
+Example Agents:
+- Jane (Department: SysAdmins)  
+- John (Department: Support)  
+
+---
+
+### 6. Configure Users (Customers)
+Users represent employees or customers submitting tickets.
+
+Path:
+Agent Panel → Users → Add New
+
+
+Example Users:
+- Karen  
+- Ken  
+
+<img width="800" height="492" alt="add a user" src="https://github.com/user-attachments/assets/5314e6ab-eb1d-4b30-8296-17aee6944311" />
+
+---
+
+### 7. Configure SLA Plans
+SLA plans define response expectations.
+
+Path:
+Admin Panel → Manage → SLA
+
+
+Configured SLAs:
+- Sev-A  
+  - Grace Period: 1 hour  
+  - Schedule: 24/7  
+- Sev-B  
+  - Grace Period: 4 hours  
+  - Schedule: 24/7  
+- Sev-C  
+  - Grace Period: 8 hours  
+  - Schedule: Business Hours  
+
+<img width="1197" height="827" alt="SLA addition" src="https://github.com/user-attachments/assets/31a900a6-9e91-4b28-9176-f8b472649e4e" />
+
+---
+
+### 8. Configure Help Topics
+Help Topics guide users when creating tickets.
+
+Path:
+Admin Panel → Manage → Help Topics
+
+markdown
+Copy code
+
+Configured Topics:
+- Business Critical Outage  
+- Personal Computer Issues  
+- Equipment Request  
+- Password Reset  
+- Other  
+
+<img width="1201" height="747" alt="add help topics" src="https://github.com/user-attachments/assets/079b2130-3a07-4847-96f1-688138d51658" />
 
 
 
