@@ -159,12 +159,16 @@ Everyone → Full Control
 Open HeidiSQL:
 - Login: root / root  
 - Create database:
+  
+osTicket
 
 <img width="1167" height="627" alt="heidi SQL create new database" src="https://github.com/user-attachments/assets/8573f45d-c16a-4dc9-ae21-8c5af216c984" />
 
+osTicket database successfully created. 
+
 <img width="1167" height="290" alt="proof of osTicket database creation" src="https://github.com/user-attachments/assets/1556ac5f-3f7b-4f15-8d4b-5a3448f44317" />
 
-osTicket
+
 
 
 
