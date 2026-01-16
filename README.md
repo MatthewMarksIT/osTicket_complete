@@ -126,7 +126,9 @@ In IIS → PHP Manager → Enable or disable extensions:
 - php_intl.dll  
 - php_opcache.dll  
 
-Refresh the browser after enabling.
+Refresh the browser after enabling. You should see a few more extensions checked off than before (IMAP, etc.). 
+
+<img width="623" height="316" alt="extensions enabled" src="https://github.com/user-attachments/assets/54aa1d41-5e8f-4452-a171-d44d2dcee4fc" />
 
 ---
 
@@ -158,8 +160,13 @@ Open HeidiSQL:
 - Login: root / root  
 - Create database:
 
+<img width="1167" height="627" alt="heidi SQL create new database" src="https://github.com/user-attachments/assets/8573f45d-c16a-4dc9-ae21-8c5af216c984" />
+
+<img width="1167" height="290" alt="proof of osTicket database creation" src="https://github.com/user-attachments/assets/1556ac5f-3f7b-4f15-8d4b-5a3448f44317" />
 
 osTicket
+
+
 
 
 ---
