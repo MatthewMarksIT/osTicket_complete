@@ -199,7 +199,7 @@ http://localhost/osTicket/
 
 
 ---
-**## Configuration (Admin & Workflow Setup)**
+## Configuration (Admin & Workflow Setup)
 
 This section demonstrates how osTicket can be configured to simulate a real help desk environment.
 
@@ -333,7 +333,7 @@ Configured Topics:
 
 <img width="1201" height="747" alt="add help topics" src="https://github.com/user-attachments/assets/079b2130-3a07-4847-96f1-688138d51658" />
 
-**## Ticket Lifecyle Examples (Simulation Lab)**
+## Ticket Lifecyle Examples (Simulation Lab)
 
 This section focuses on using the system like a real help desk: creating tickets, triaging, assigning, escalating, and resolving issues.
 
