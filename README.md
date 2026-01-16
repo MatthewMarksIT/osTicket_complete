@@ -37,7 +37,7 @@ This tutorial outlines the following for the open-source help desk ticketing sys
 
 ### 1. Prepare the VM
 - Log into the VM using Remote Desktop/Bastion  
-- Download and extract: osTicket-Installation-Files.zip(https://github.com/MatthewMarksIT/osTicket_complete/releases)
+- Download and extract: [osTicket-Installation-Files.zip](https://github.com/MatthewMarksIT/osTicket_complete/releases)
 
 
 
