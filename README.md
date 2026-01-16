@@ -157,6 +157,7 @@ Everyone → Full Control
 
 ### 10. Create Database
 Open HeidiSQL:
+
 - Login: root / root  
 - Create database:
   
@@ -179,9 +180,10 @@ osTicket database successfully created.
 Enter database details:
 
 
-Database: osTicket
-Username: root
-Password: root
+- Database: osTicket
+
+- Username: root
+- Password: root
 
 
 Click:
@@ -234,9 +236,6 @@ Used to control ticket visibility and separation of duties.
 Path:
 Admin Panel → Agents → Departments
 
-yaml
-Copy code
-
 Example Department:
 - SysAdmins
   
@@ -249,9 +248,6 @@ Teams allow agents from different departments to collaborate.
 
 Path:
 Admin Panel → Agents → Teams
-
-yaml
-Copy code
 
 Example Team:
 - Online Banking
@@ -266,8 +262,6 @@ Control whether anyone can submit tickets.
 Path:
 Admin Panel → Settings → User Settings
 
-yaml
-Copy code
 
 Configured as:
 - Unchecked: Unregistered users can create tickets  
@@ -400,49 +394,12 @@ Complete ticket.
 
 <img width="800" height="765" alt="entire ticket thread" src="https://github.com/user-attachments/assets/bd8e44a7-ebd4-4aa1-aa6e-d3a525b9536b" />
 
----
-
-### Ticket Scenario 2: Software Issue
-
-End User submits ticket:
-> "Accounting department needs Adobe upgrade, broken"
-
-As Agent, observe:
-- Priority  
-- Department  
-- SLA  
-- Assigned To  
-
-Set properties:
-- SLA: Sev-B (4 hours, 24/7)  
-- Department: Support  
-
-Work ticket to completion.
-
----
-
-### Ticket Scenario 3: Executive Hardware Issue
-
-End User submits ticket:
-> "CFO’s laptop will no longer turn on"
-
-As Agent, observe:
-- Priority  
-- Department  
-- SLA  
-- Assigned To  
-
-Set properties:
-- SLA: Sev-B (4 hours, 24/7)  
-- Department: Support  
-
-Work ticket to completion.
 
 ---
 
 ### Ticket Resolution
-- Resolve all open tickets  
-- Close tickets properly  
+- Practice creating, triaging, and closing tickets using what you have learned!
+- Play around with different SLAs, Departments, Help Topics, and more
 
 Note: In real environments, most ticketing systems (including osTicket) can send email notifications. Each update to a ticket typically sends an email to the user, and users can often reply directly via email to continue the conversation.
 
