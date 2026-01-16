@@ -464,6 +464,189 @@ Even if you fix an issue on the spot, it is considered best practice to **still 
 
 
 
+# Troubleshooting Guide
+
+This guide outlines common Tier 1 help desk issues, practical troubleshooting steps, and professional habits. While you are gaining an intuition for opening, working, and closing tickets using osTicket, it will be helpful for you to become familiar with common issues, potential resolutions, and performing root cause analysis. 
+
+---
+
+## Core Mindset
+
+Tier 1 support focuses on:
+- Fast and accurate triage  
+- Clear communication  
+- Pattern recognition  
+- Knowing when to escalate  
+- Strong documentation habits
+
+Important
+> You are not expected to know everything.  
+> You *are* expected to gather good information, try safe fixes, and escalate intelligently.
+
+---
+
+## Practical First Steps
+
+Before troubleshooting, clarify the issue:
+
+- What exactly is broken?  
+- When did the issue start?  
+- Is anyone else affected?  
+- Has anything changed recently? (updates, new device, password change, travel, etc.)  
+- Are there any error messages? (ask for screenshots)  
+- Can the issue be reproduced?  
+
+If the problem is unclear, continue gathering information from the user before attempting fixes. Depending on your organization, this can be done in-person, over the phone, or through messages (Slack, Teams, etc.). 
+
+---
+
+## Common Tier 1 Issues and Fixes
+
+### 1. Password / Login Issues
+**Symptoms**
+- Password not working  
+- Account locked  
+- MFA failing  
+
+**Troubleshooting**
+- Verify correct username  
+- Reset password  
+- Check for account lockout  
+- Confirm MFA method/device  
+- Try incognito/private browser window  
+- Clear browser cache (for web apps)
+- IMPORTANT: Be sure to confirm the identity of the person you are resetting the password for and follow all appropriate procedures. 
+
+---
+
+### 2. Internet / Network Issues
+**Symptoms**
+- Websites won’t load  
+- VPN disconnects  
+- Internal apps unreachable  
+
+**Troubleshooting**
+- Confirm Wi-Fi or Ethernet connection  
+- Test access to a public site (e.g., google.com)  
+- Restart network adapter  
+- Reboot device  
+- Disconnect/reconnect VPN  
+- Check if other users are impacted  
+
+---
+
+### 3. Application Not Working
+**Symptoms**
+- App won’t open  
+- Freezing or crashing  
+- Missing features  
+
+**Troubleshooting**
+- Close and reopen the app  
+- Restart computer  
+- Check for application updates  
+- Reinstall app (if permitted)  
+- Try web version (if available)  
+- Test with another user account  
+
+---
+
+### 4. Email Issues
+**Symptoms**
+- Not receiving email  
+- Cannot send messages  
+- Outlook errors  
+
+**Troubleshooting**
+- Check spam/junk folder  
+- Confirm mailbox is not full  
+- Test login via webmail  
+- Restart Outlook  
+- Recreate mail profile (if allowed)  
+- Verify internet/VPN connection  
+
+---
+
+### 5. Slow Computer
+**Symptoms**
+- “Everything is slow”  
+
+**Troubleshooting**
+- Restart device  
+- Check Task Manager for high CPU/RAM usage  
+- Close unused applications  
+- Check available disk space  
+- Ask whether issue happens on Wi-Fi vs Ethernet  
+- Confirm system updates are not running in background  
+
+---
+
+### 6. Permissions / Access Issues
+**Symptoms**
+- “I used to have access”  
+- “Access denied” or unauthorized messages  
+
+**Troubleshooting**
+- Confirm the system and exact action being attempted  
+- Ask for screenshot of error  
+- Verify user role or group membership  
+- Check if approval is required  
+- Escalate with clear documentation  
+
+---
+
+## When to Escalate
+
+Escalate when:
+- You tried standard fixes and the issue persists  
+- Multiple users are affected  
+- There is potential security risk  
+- The issue requires higher privileges  
+- The system is unfamiliar or undocumented  
+
+A strong escalation includes:
+- Clear problem description  
+- What you tested  
+- What worked / did not work  
+- Screenshots or exact error messages  
+
+---
+
+## Documentation Best Practices
+
+Every ticket should include:
+- Summary of the issue  
+- Troubleshooting steps performed  
+- Final resolution  
+- Time spent  
+- Anything learned  
+
+Good documentation improves:
+- Metrics and reporting  
+- Knowledge sharing  
+- Your credibility  
+- Future troubleshooting efficiency  
+
+---
+
+## Example of Strong Tier 1 Ticket Notes
+
+> User unable to access email via Outlook. Confirmed credentials worked via webmail. Restarted Outlook with no improvement. Recreated Outlook profile which resolved the issue. User confirmed successful send/receive. Ticket closed.
+
+---
+
+## What Makes a Strong Tier 1 Technician
+
+Strong Tier 1 technicians:
+- Stay calm with frustrated users  
+- Ask clear and thoughtful questions  
+- Take detailed ticket notes  
+- Follow up after resolution  
+- Learn common patterns over time  
+- Verify fixes instead of guessing  
+
+---
+
 
 
 
