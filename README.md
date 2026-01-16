@@ -385,11 +385,9 @@ Configured Topics:
 This section focuses on using the system like a real help desk: creating tickets, triaging, assigning, escalating, and resolving issues.
 
 Login URLs:
-Agent/Admin Login: http://localhost/osTicket/scp/login.php
-End User Portal: http://localhost/osTicket
+- Agent/Admin Login: http://localhost/osTicket/scp/login.php
+- End User Portal: http://localhost/osTicket
 
-yaml
-Copy code
 
 In this lab:
 - Tickets are created as end users  
@@ -400,7 +398,7 @@ In this lab:
 
 ### Environment Cleanup
 - Change **SysAdmins** to a Top-Level Department  
-- Delete the **Maintenance** Department (do not archive)  
+- Delete the **Maintenance** Department (do not archive; tickets are automatically routed here, so we need to remove this)  
 
 ---
 
@@ -416,25 +414,21 @@ End User submits ticket:
 
 
 
-As Agent (John), observe:
+As an Agent, observe:
 - Priority  
 - Department  
 - SLA  
 - Assigned To  
 
-<img width="1055" height="617" alt="ticket created" src="https://github.com/user-attachments/assets/7ec94d68-ea2c-4c7b-88e6-14b5c44f78b5" />
+<img width="1197" height="642" alt="new ticket initial view" src="https://github.com/user-attachments/assets/c368f890-cc7f-426e-88e9-64374c7aaefd" />
 
 
 Set ticket properties:
 - SLA: Sev-A (1 hour, 24/7)  
-- Department: Online Banking  
-
-Attempt to view ticket again as John and note any access changes.
+- Department: Online Banking 
 
 
-
-
-Complete ticket as Jane.
+Complete ticket. 
 
 <img width="802" height="312" alt="agent view once assigned" src="https://github.com/user-attachments/assets/bb5979fb-bd0c-45f4-bfa2-112de70fca71" />
 
@@ -445,7 +439,7 @@ Complete ticket as Jane.
 End User submits ticket:
 > "Accounting department needs Adobe upgrade, broken"
 
-As Agent (John), observe:
+As Agent, observe:
 - Priority  
 - Department  
 - SLA  
@@ -455,7 +449,7 @@ Set properties:
 - SLA: Sev-B (4 hours, 24/7)  
 - Department: Support  
 
-Work ticket to completion as John.
+Work ticket to completion.
 
 ---
 
@@ -464,7 +458,7 @@ Work ticket to completion as John.
 End User submits ticket:
 > "CFO’s laptop will no longer turn on"
 
-As Agent (John), observe:
+As Agent, observe:
 - Priority  
 - Department  
 - SLA  
@@ -474,7 +468,7 @@ Set properties:
 - SLA: Sev-B (4 hours, 24/7)  
 - Department: Support  
 
-Work ticket to completion as John.
+Work ticket to completion.
 
 ---
 
