@@ -29,14 +29,14 @@ This tutorial outlines the following for the open-source help desk ticketing sys
 - Windows VM 
 - Connection capability (RDP or Bastion)
 - osTicket Installation Files
-- Basic familiarity with Windows (UI, installing programs, file systems)
+- Basic familiarity with Windows OS (UI, installing applications, navigating file systems)
 
 ---
 
 **<h1>Installation Steps</h1>**
 
 ### 1. Prepare the VM
-- Log into the VM using Remote Desktop/Bastion  
+- Log into the VM using Remote Desktop (if VM was created with a public IP address)/Bastion
 - Download and extract: [osTicket-Installation-Files.zip](https://github.com/MatthewMarksIT/osTicket_complete/releases)
 
 
