@@ -33,6 +33,181 @@ This tutorial outlines the following for the open-source help desk ticketing sys
 
 <h2>Installation Steps</h2>
 
+### 1. Prepare the VM
+- Log into the VM using Remote Desktop/Bastion  
+- Download and extract: osTicket-Installation-Files.zip (LINK?)
+
+
+
+
+---
+
+### 2. Enable IIS with CGI
+Enable this Windows feature:
+Internet Information Services (IIS)
+→ World Wide Web Services
+→ Application Development Features
+→ [✔] CGI
+
+
+---
+
+### 3. Install Required Components
+From the installation folder, install:
+- PHP Manager for IIS  
+- IIS Rewrite Module  
+- VC_redist.x86.exe  
+- MySQL 5.5.62  
+  - Typical Setup  
+  - Standard Configuration  
+  - Username: root  
+  - Password: root  
+
+---
+
+### 4. Install PHP
+Create folder:
+C:\PHP
+Extract into it:
+php-7.3.8-nts-Win32-VC15-x86.zip
+
+
+
+---
+
+### 5. Configure IIS for PHP
+- Open IIS Manager as Administrator  
+- Open **PHP Manager**  
+- Register PHP path:
+C:\PHP\php-cgi.exe
+
+- Restart IIS (Stop → Start)
+
+---
+
+### 6. Install osTicket
+- Extract:
+- osTicket-v1.15.8.zip
+
+- Copy the `upload` folder to:
+
+
+C:\inetpub\wwwroot
+
+- Rename:
+
+
+upload → osTicket
+
+- Restart IIS
+
+---
+
+### 7. Open the Installer
+Open browser and go to:
+
+
+http://localhost/osTicket
+
+
+You should see the osTicket setup page.
+
+---
+
+### 8. Enable Required PHP Extensions
+In IIS → PHP Manager → Enable or disable extensions:
+- php_imap.dll  
+- php_intl.dll  
+- php_opcache.dll  
+
+Refresh the browser after enabling.
+
+---
+
+### 9. Configure osTicket File
+Rename:
+
+
+C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+
+To:
+
+
+ost-config.php
+
+
+Update permissions:
+- Disable inheritance  
+- Remove all existing permissions  
+- Add:
+
+
+Everyone → Full Control
+
+
+---
+
+### 10. Create Database
+Open HeidiSQL:
+- Login: root / root  
+- Create database:
+
+
+osTicket
+
+
+---
+
+### 11. Complete Installation in Browser
+Enter database details:
+
+
+Database: osTicket
+Username: root
+Password: root
+
+
+Click:
+
+
+Install Now
+
+
+If successful, osTicket will complete setup.
+
+---
+
+## Access URLs
+
+Staff / Admin Login:
+
+
+http://localhost/osTicket/scp/login.php
+
+
+End User Portal:
+
+
+http://localhost/osTicket/
+
+
+---
+
+## Project Status
+
+This repository currently includes:
+- Environment setup  
+- osTicket installation  
+- Core configuration  
+
+Planned additions:
+- Ticket lifecycle workflows  
+- SLAs and priorities  
+- Departments and queues  
+- Roles and permissions  
+- Automation rules  
+- Reporting examples  
+- 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
