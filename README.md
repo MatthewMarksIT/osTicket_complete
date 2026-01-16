@@ -385,6 +385,9 @@ Complete ticket.
 
 <img width="802" height="312" alt="agent view once assigned" src="https://github.com/user-attachments/assets/bb5979fb-bd0c-45f4-bfa2-112de70fca71" />
 
+
+<img width="800" height="765" alt="entire ticket thread" src="https://github.com/user-attachments/assets/bd8e44a7-ebd4-4aa1-aa6e-d3a525b9536b" />
+
 ---
 
 ### Ticket Scenario 2: Software Issue
