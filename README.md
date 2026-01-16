@@ -21,7 +21,7 @@ This tutorial outlines the following for the open-source help desk ticketing sys
 
 <h2>Operating Systems Used </h2>
 
-- Windows 11</b> (21H2)
+- Windows 11</b>
 
 <h2>List of Prerequisites</h2>
 
