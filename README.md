@@ -61,7 +61,8 @@ From the installation folder, install:
   - Typical Setup  
   - Standard Configuration  
   - Username: root  
-  - Password: root  
+  - Password: root
+  - 
 <img width="856" height="291" alt="full install list" src="https://github.com/user-attachments/assets/0e483f97-5686-4ce6-8749-b0a1fb0e1f8d" /> 
 <!-- INSTALL LIST-->
 ---
