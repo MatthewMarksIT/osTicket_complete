@@ -60,13 +60,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 
+<img width="1417" height="967" alt="osTicket installer local host page " src="https://github.com/user-attachments/assets/661dde50-6b89-459c-9e40-5e4b5270bd2e" />
+<!-- INSTALLER LOCAL HOST PAGE-->
+
+
 
 
 <img width="1030" height="801" alt="osTicket install success" src="https://github.com/user-attachments/assets/6425f303-1b11-4bd9-a9b6-a67313ad9f42" />
 <!-- OSTICKET INSTALL SUCCESS-->
 
 
-<img width="1417" height="967" alt="osTicket installer local host page " src="https://github.com/user-attachments/assets/661dde50-6b89-459c-9e40-5e4b5270bd2e" />
+
 
 
 
