@@ -5,7 +5,7 @@
 <h1>osTicket - Open Source Ticketing System Walkthrough</h1>
 This tutorial outlines the following for the open-source help desk ticketing system osTicket: 
 
-- [Installation](<h1>Installation Steps</h1>)
+- [Installation](#installation-steps)
 - Configuration
 - Ticket Lifecycle Example
 - Bonus Section: Tier 1 Helpdesk Troubleshooting Guide
