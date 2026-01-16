@@ -380,6 +380,140 @@ Configured Topics:
 
 <img width="1201" height="747" alt="add help topics" src="https://github.com/user-attachments/assets/079b2130-3a07-4847-96f1-688138d51658" />
 
+## Working Tickets (Simulation Lab)
+
+This section focuses on using the system like a real help desk: creating tickets, triaging, assigning, escalating, and resolving issues.
+
+Login URLs:
+Agent/Admin Login: http://localhost/osTicket/scp/login.php
+End User Portal: http://localhost/osTicket
+
+yaml
+Copy code
+
+In this lab:
+- Tickets are created as end users  
+- Tickets are reviewed and worked by agents  
+- Properties such as Priority, SLA, Department, and Assignment are evaluated  
+
+---
+
+### Environment Cleanup
+- Change **SysAdmins** to a Top-Level Department  
+- Delete the **Maintenance** Department (do not archive)  
+
+---
+
+### Ticket Scenario 1: Critical Outage
+
+End User submits ticket:
+> "Entire mobile/online banking system is down"
+> 
+<img width="1056" height="612" alt="open a new ticket" src="https://github.com/user-attachments/assets/bdef83af-a524-4168-92fc-8c8048a11376" />
+
+
+<img width="1052" height="863" alt="open a new ticket 2" src="https://github.com/user-attachments/assets/42181ea9-def8-43f8-918e-b6c681eaca1f" />
+
+
+
+As Agent (John), observe:
+- Priority  
+- Department  
+- SLA  
+- Assigned To  
+
+<img width="1055" height="617" alt="ticket created" src="https://github.com/user-attachments/assets/7ec94d68-ea2c-4c7b-88e6-14b5c44f78b5" />
+
+
+Set ticket properties:
+- SLA: Sev-A (1 hour, 24/7)  
+- Department: Online Banking  
+
+Attempt to view ticket again as John and note any access changes.
+
+
+
+
+Complete ticket as Jane.
+
+<img width="802" height="312" alt="agent view once assigned" src="https://github.com/user-attachments/assets/bb5979fb-bd0c-45f4-bfa2-112de70fca71" />
+
+---
+
+### Ticket Scenario 2: Software Issue
+
+End User submits ticket:
+> "Accounting department needs Adobe upgrade, broken"
+
+As Agent (John), observe:
+- Priority  
+- Department  
+- SLA  
+- Assigned To  
+
+Set properties:
+- SLA: Sev-B (4 hours, 24/7)  
+- Department: Support  
+
+Work ticket to completion as John.
+
+---
+
+### Ticket Scenario 3: Executive Hardware Issue
+
+End User submits ticket:
+> "CFO’s laptop will no longer turn on"
+
+As Agent (John), observe:
+- Priority  
+- Department  
+- SLA  
+- Assigned To  
+
+Set properties:
+- SLA: Sev-B (4 hours, 24/7)  
+- Department: Support  
+
+Work ticket to completion as John.
+
+---
+
+### Escalation and Access Testing
+
+- Set all tickets to Sev-A  
+- Assign SysAdmins department last  
+- Observe ticket becomes inaccessible  
+- Switch to Admin Panel  
+- Grant yourself View access to SysAdmins  
+- Return to Agent Panel  
+- Observe escalated ticket  
+- Confirm that edits are restricted  
+
+---
+
+### Ticket Resolution
+- Resolve all open tickets  
+- Close tickets properly  
+
+Note: In real environments, most ticketing systems (including osTicket) can send email notifications. Each update to a ticket typically sends an email to the user, and users can often reply directly via email to continue the conversation.
+
+---
+
+## Real-World Ticket Intake Notes
+
+In real environments, tickets may come from:
+- Web forms  
+- Email  
+- Phone calls  
+- Chat systems (Slack, Teams, etc.)  
+- Walk-ups / hallway conversations  
+
+Even if you fix an issue on the spot, it is considered best practice to **still create a ticket** for the work performed. This ensures:
+- Accurate metrics  
+- Workload tracking  
+- Accountability  
+- Historical documentation  
+- Better reporting for leadership  
 
 
 
