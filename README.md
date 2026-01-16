@@ -30,8 +30,9 @@ This tutorial outlines the following for the open-source help desk ticketing sys
 - osTicket Installation Files
 - Basic familiarity with Windows (UI, installing programs, file systems)
 
+---
 
-<h1>Installation Steps</h1>
+**<h1>Installation Steps</h1>**
 
 ### 1. Prepare the VM
 - Log into the VM using Remote Desktop/Bastion  
@@ -198,49 +199,7 @@ http://localhost/osTicket/
 
 
 ---
-
-## Project Status
-
-This repository currently includes:
-- Environment setup  
-- osTicket installation  
-- Core configuration  
-
-Planned additions:
-- Ticket lifecycle workflows  
-- SLAs and priorities  
-- Departments and queues  
-- Roles and permissions  
-- Automation rules  
-- Reporting examples  
-- 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
----
-## Configuration (Admin & Workflow Setup)
+**## Configuration (Admin & Workflow Setup)**
 
 This section demonstrates how osTicket can be configured to simulate a real help desk environment.
 
@@ -251,9 +210,6 @@ Used to group permissions for agents.
 
 Path:
 Admin Panel → Agents → Roles
-
-yaml
-Copy code
 
 Example Role:
 - Super Admin
@@ -368,9 +324,6 @@ Help Topics guide users when creating tickets.
 Path:
 Admin Panel → Manage → Help Topics
 
-markdown
-Copy code
-
 Configured Topics:
 - Business Critical Outage  
 - Personal Computer Issues  
@@ -380,7 +333,7 @@ Configured Topics:
 
 <img width="1201" height="747" alt="add help topics" src="https://github.com/user-attachments/assets/079b2130-3a07-4847-96f1-688138d51658" />
 
-## Working Tickets (Simulation Lab)
+**## Ticket Lifecyle Examples (Simulation Lab)**
 
 This section focuses on using the system like a real help desk: creating tickets, triaging, assigning, escalating, and resolving issues.
 
