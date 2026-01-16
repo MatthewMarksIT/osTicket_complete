@@ -31,7 +31,7 @@ This tutorial outlines the following for the open-source help desk ticketing sys
 - Basic familiarity with Windows (UI, installing programs, file systems)
 
 
-<h2>Installation Steps</h2>
+<h1>Installation Steps</h1>
 
 ### 1. Prepare the VM
 - Log into the VM using Remote Desktop/Bastion  
