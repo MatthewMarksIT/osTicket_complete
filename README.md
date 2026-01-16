@@ -7,7 +7,8 @@ This tutorial outlines the following for the open-source help desk ticketing sys
 
 - Installation
 - Configuration
-- Ticket Lifecycle Examples
+- Ticket Lifecycle Example
+- Bonus Section: Tier 1 Helpdesk Troubleshooting Guide
 
 
 ---
@@ -425,19 +426,6 @@ Set properties:
 - Department: Support  
 
 Work ticket to completion.
-
----
-
-### Escalation and Access Testing
-
-- Set all tickets to Sev-A  
-- Assign SysAdmins department last  
-- Observe ticket becomes inaccessible  
-- Switch to Admin Panel  
-- Grant yourself View access to SysAdmins  
-- Return to Agent Panel  
-- Observe escalated ticket  
-- Confirm that edits are restricted  
 
 ---
 
